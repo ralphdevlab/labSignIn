@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Sign-In Successful</title>
+</head>
+<body>
+<h1>Thank you for signing in!</h1>
+<p><strong>First Name:</strong> <span th:text="${student.firstName}"></span></p>
+<p><strong>Last Name:</strong> <span th:text="${student.lastName}"></span></p>
+<p><strong>Email:</strong> <span th:text="${student.email}"></span></p>
+
+
+<br>
+<a href="/">Submit Another Sign-In</a>
+</body>
+</html>
